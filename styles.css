@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 /*===============
   global styles
 ===============*/
@@ -67,6 +71,7 @@
   
   h1 {
     font-size: 4rem;
+    font-family: "Source Code Pro";
   }
   
   h2 {
@@ -253,7 +258,7 @@
   
   .about {
     flex-direction: column;
-    margin-top: 3em;
+    margin-top: 2em;
   }
   
   .about__name {
@@ -325,7 +330,7 @@
   }
   
   .skills__list {
-    max-width: 450px;
+    max-width: 600px;
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -423,4 +428,11 @@
 
     .bold {
       font-weight: bold;
+    }
+
+    .avatar {
+      border-radius: 50%;
+      width:240px;
+      height: auto;
+      background-color: #B560B6
     }
