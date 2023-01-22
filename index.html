@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title> Lisa Samuelsson </title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href class="link"
+          ></a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#courses">Courses</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1> <span class="about__name">Lisa Samuelsson</span></h1>
+        <h2 class="about__role">Aspiring data scientist.</h2>
+        <p class="about__desc">
+          I started studying <span class="bold">software engineering</span> at <span class="bold">Chalmers University of Technology</span> in 2019, because I found 
+          myself increasingly amazed by the technology I used everyday, and I wanted to know how it all worked*.         
+        </p>
+        <p class="about__desc">
+          This curiosity led me on to choosing a <span class="bold">masters degree</span> in <span class="bold">data science and artificial intelligence</span>. 
+          I have wide variety interests and am always up to learn something new, which is why data science 
+          is a perfect fit for me. My goal is to find clever ways to use data in order to discover new things
+          and develop my understanding of the world. 
+        </p>
+
+        <p class="about__desc">
+          * If you want to see a short video that sums up how I still feel, you can click 
+          <span class="underscore"> 
+            <a href="https://www.tiktok.com/@ethanforyou/video/7172651342765296938?_r=1&_t=8ZAMtVFL3qw"
+            target="_blank" 
+            rel="noopener noreferrer"
+            >here</a></span>.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://lisaelsi.github.io/LisaSamuelssonResume/">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lisa-samuelsson/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+          <a
+          href="https://github.com/lisaelsi"
+          aria-label="source code"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="courses" class="section projects">
+        <h2 class="section__title">Some of my <span class="pink">favorite</span> courses</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3> <a href="https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/pages/searchcourse.aspx?course_id=20672&parsergrp=3" 
+                    target="_blank" 
+                    rel="noopener noreferrer"> 
+            Databases </a></h3>
+            <p class="project__description">
+               A course which covers topics as SQL programming, ER-modeling, functional dependencies and normalisation, 
+               interfacing to a database from Java/JDBC, as well as an overview of XML and JSON. 
+               One of the main things I learned in this course is how to efficiently create smart SQL queries. 
+
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Team Work</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>
+              <a href="https://student.portal.chalmers.se/en/chalmersstudies/programme-information/Pages/SearchProgram.aspx?course_id=29985&parsergrp=2" 
+                    target="_blank" 
+                    rel="noopener noreferrer">             
+              Introduction to Data Science and AI </a></h3>
+            <p class="project__description">
+              A course that covers the fundamentals of data science and AI. 
+              We worked in pairs with weekly modules focused on different topics such as 
+              reinforcement learning, neural networks and Bayes classifiers. Several Python 
+              libraries such as scikit-learn, Tensorflow and Keras were used in the assignment.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Team Work</li>
+              <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <div>
+            
+        </div>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3> <a href="https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?course_id=30111&parsergrp=3"
+                    target="_blank" 
+                    rel="noopener noreferrer"> 
+            Human Computer Interaction </a></h3>
+            <p class="project__description">
+              An elective course covering the human centered design process, from user research to design of user interfaces. 
+              Though these topics are not my main area of focus, this course taught me the importance of considering the users needs, 
+              how I can discover these needs and create designs that fullfill them. This is something that I now apply when creating any 
+              type of system. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">UX design</li>
+              <li class="project__stack-item">User Research</li>
+              <li class="project__stack-item">Academic Writing</li>
+            </ul>
+            <a
+              href="https://github.com/lisaelsi/Pedal-Plan-DAT420"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+
+          <div class="project">
+            <h3>
+              <a href="https://student.portal.chalmers.se/en/chalmersstudies/programme-information/Pages/SearchProgram.aspx?course_id=29985&parsergrp=2" 
+                    target="_blank" 
+                    rel="noopener noreferrer">             
+              Introduction to Data Science and AI </a></h3>
+            <p class="project__description">
+              A course that covers the fundamentals of data science and AI. 
+              We worked in pairs with weekly modules focused on different topics such as 
+              reinforcement learning, neural networks and Bayes classifiers. Several Python 
+              libraries such as scikit-learn, Tensorflow and Keras were used in the assignment.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Team Work</li>
+              <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3> <a href="https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/pages/searchcourse.aspx?course_id=20672&parsergrp=3" 
+                    target="_blank" 
+                    rel="noopener noreferrer"> 
+            Databases </a></h3>
+            <p class="project__description">
+               A course which covers topics as SQL programming, ER-modeling, functional dependencies and normalisation, 
+               interfacing to a database from Java/JDBC, as well as an overview of XML and JSON. 
+               One of the main things I learned in this course is how to efficiently create smart SQL queries. 
+
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://lisaelsi.github.io/LisaSamuelssonResume/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="projects__grid">
+          <div class="project">
+            <h3> <a href="https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/pages/searchcourse.aspx?course_id=20672&parsergrp=3" 
+                    target="_blank" 
+                    rel="noopener noreferrer"> 
+            Databases </a></h3>
+            <p class="project__description">
+               A course which covers topics as SQL programming, ER-modeling, functional dependencies and normalisation, 
+               interfacing to a database from Java/JDBC, as well as an overview of XML and JSON. 
+               One of the main things I learned in this course is how to efficiently create smart SQL queries. 
+
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://lisaelsi.github.io/LisaSamuelssonResume/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Keras</li>
+          <li class="skills__list-item btn btn--plain">Tensorflow</li>
+          <li class="skills__list-item btn btn--plain">Pandas</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">R</li>
+          <li class="skills__list-item btn btn--plain">Matlab</li>
+          <li class="skills__list-item btn btn--plain">HTML/CSS</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">SCRUM</li>
+          <li class="skills__list-item btn btn--plain">Requirements engineering</li>
+          <li class="skills__list-item btn btn--plain">UX prototyping</li>
+          <li class="skills__list-item btn btn--plain">Figma</li>
+          <li class="skills__list-item btn btn--plain">User research</li>
+          <li class="skills__list-item btn btn--plain">Windows</li>
+          <li class="skills__list-item btn btn--plain">MacOS</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:lisasamuelssons@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Template by Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
