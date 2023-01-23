@@ -18,7 +18,6 @@
     font-size: inherit;
     box-shadow: none;
     box-sizing: border-box;
-    zoom:95%;
   }
   
   html {
@@ -315,6 +314,8 @@
   
   .project__description {
     margin-top: 1em;
+    font-size: 1.10rem;
+
   }
   
   .project__stack {
@@ -346,6 +347,7 @@
   
   .skills__list-item {
     margin: 0.5em;
+    font-size: 1.1rem;
   }
   
   .contact {
