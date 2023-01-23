@@ -293,7 +293,7 @@
   }
   
   .projects__grid {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 2em auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
@@ -314,7 +314,7 @@
   
   .project__description {
     margin-top: 1em;
-    font-size: 0.95rem;
+    font-size: 1rem;
 
   }
   
