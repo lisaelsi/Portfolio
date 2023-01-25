@@ -442,5 +442,6 @@
       border-radius: 50%;
       width:240px;
       height: auto;
-      background-color: #B560B6
+      background-color: #B560B6;
+      margin-bottom: 1em;
     }
