@@ -7,3 +7,5 @@ Have a look at my portfolio on https://lisaelsi.github.io/Portfolio/
 
 ## Credit
 I created this portfolio based on a template by Raj Shekhar (https://github.com/rajshekhar26). Thank you! 
+
+![My Image](screenshot.png)
