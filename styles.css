@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:wght@400&display=swap');
 
 
 /*===============
@@ -25,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -71,19 +73,19 @@ h4 {
 
 h1 {
   font-size: 3.8rem;
-  font-family: "Montserrat";
+  font-family: "DM Serif Text";
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -275,7 +277,7 @@ main {
 }
 
 .about__desc {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   max-width: 700px;
   text-align: center;
 }
@@ -315,7 +317,7 @@ main {
 
 .project__description {
   margin-top: 1em;
-  font-size: 1rem;
+  font-size: 1.1rem;
 
 }
 
@@ -329,7 +331,7 @@ main {
 .project__stack-item {
   margin: 0.5em;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--clr-fg-alt);
 }
 
@@ -362,7 +364,7 @@ main {
 }
 
 .footer__link {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--clr-fg);
 }
